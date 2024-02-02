@@ -15,7 +15,7 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <div>
+    <div class="museum">
       <picture>
         <source srcset="images/museum-800.jpg,
         images/museum-1600.jpg 2x,
@@ -31,13 +31,21 @@
 
 
 
-
-
-
-
         <source srcset="images/museum-320.jpg,
                 images/museum-640.jpg 2x,
-                images/museum-960.jpg 3x" media=" (max-width: 959px)" />
+                images/museum-960.jpg 3x" media=" (max-width:320px)" />
+
+        <source srcset="images/museum-480.jpg,
+                images/museum-960.jpg 2x,
+                images/museum-1440.jpg 3x" media=" (max-width:480px)" />
+
+        <source srcset="images/museum-720.jpg,
+                images/museum-1440.jpg 2x,
+                images/museum-2160.jpg 3x" media=" (max-width:720px)" />
+
+        <source srcset="images/museum-960.jpg,
+                images/museum-1920.jpg 2x,
+                images/museum-2828.jpg 3x" media=" (max-width:959px)" />
 
         <img class="titleimage" src="images/museum-640.jpg" alt="musuem with sofas inside">
       </picture>
