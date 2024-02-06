@@ -12,6 +12,7 @@ body {
   grid-template-columns: 1fr;
   align-items: center;
   background-color: cadetblue;
+  border:1px black solid
 }
 
 .title {
@@ -35,9 +36,9 @@ img {
 
 @media (min-width: 960px) {
   .header {
-    grid-template-columns: auto auto;
-  }
+    grid-template-columns: 1fr 1fr;
   
+  }
 }
 
 
